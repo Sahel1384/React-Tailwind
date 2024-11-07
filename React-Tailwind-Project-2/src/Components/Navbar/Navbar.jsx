@@ -149,10 +149,40 @@ function Navbar() {
             <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
               Contact
             </li>
-            <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
+            <li
+              // onMouseOver={changeState}
+              className="cursor-pointer hover:text-[#8b5cf6] duration-200"
+            >
               Pages
             </li>
           </ul>
+          <div
+            onMouseLeave={changeStat}
+            className={`${show ? "block" : "hidden"}  text-2xl relative`}
+          >
+            <ul className="flex flex-col gap-4 right-4 text-sm absolute top-60 rounded-lg font-normal bg-white shadow-xl w-52 px-5 py-2 text-gray-400">
+              <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
+                <NavLink
+                  to="blog1"
+                  className={({ isActive }) =>
+                    `${isActive ? "text-[#8b5cf6]" : "text-gray-400"}`
+                  }
+                >
+                  Blog Grid Page
+                </NavLink>
+              </li>
+              <li className="cursor-pointer hover:text-[#8b5cf6] duration-200">
+                <NavLink
+                  to="blog2"
+                  className={({ isActive }) =>
+                    `${isActive ? "text-[#8b5cf6]" : "text-gray-400"}`
+                  }
+                >
+                  Blog Details Page
+                </NavLink>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
