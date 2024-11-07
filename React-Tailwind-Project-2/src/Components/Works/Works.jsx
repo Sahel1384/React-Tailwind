@@ -55,8 +55,8 @@ function Works() {
         </div>
       </div>
 
-      <div className="px-5">
-        <div className="mt-32 flex flex-col md:flex md:flex-row bg-custom-bg justify-center rounded-xl lg:gap-32 pt-10 px-28 h-auto">
+      <div className="px-5 flex justify-center">
+        <div className="mt-32 flex flex-col md:flex md:flex-row bg-custom-bg bg-no-repeat justify-center rounded-xl lg:gap-32 pt-10 px-28 h-auto">
           <div className="max-w-[480px] flex flex-col gap-3">
             <p className="text-[#8b5cf6] font-semibold">Download Now!</p>
             <h1 className="font-semibold text-4xl">

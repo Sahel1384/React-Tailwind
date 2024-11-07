@@ -46,7 +46,7 @@ function Recent() {
         </div>
         <div>
           <div className="bg-custom-bg3 w-[400px] sm:w-[600px] lg:w-[550px] bg-cover h-auto rounded-3xl overflow-hidden flex flex-col justify-end">
-            <div className="bg-[#00000053] w-full px-10 pb-10 pt-5 h-screen flex flex-col justify-end gap-3">
+            <div className="bg-[#00000053] w-full px-10 pb-10 pt-5 h-[583px] flex flex-col justify-end gap-3">
               <h1 className="text-white font-bold text-xl w-[300px] hover:text-[#8b5cf6] cursor-pointer">
                 Interested in selling your own Apps on marketplace?
               </h1>
@@ -61,8 +61,8 @@ function Recent() {
         </div>
       </div>
 
-      <div className="w-full px-[70px]">
-        <div className="w-full h-auto bg-custom-bg px-10 mt-20 flex md:justify-between gap-3 py-10  justify-center flex-wrap items-center rounded-xl">
+      <div className="w-full px-[70px] flex justify-center">
+        <div className="w-full h-auto bg-custom-bg bg-cover bg-no-repeat px-10 mt-20 flex md:justify-between gap-3 py-10  justify-center flex-wrap items-center rounded-xl">
           <div>
             <img
               src={img1}

@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className=" mt-20 w-full bg-custom-bg h-auto flex md:flex-row justify-between gap-4 items-start sm: flex-wrap py-28 px-10 sm:px-20 flex-col">
+      <div className="mt-20 w-full bg-custom-bg bg-no-repeat bg-cover h-auto flex md:flex-row justify-between gap-4 items-start sm: flex-wrap py-28 px-10 sm:px-20 flex-col">
         <div className="relative">
           <svg
             className="mx-32 absolute -top-28 left-20"
