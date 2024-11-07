@@ -6,7 +6,7 @@ function Hero() {
     <>
       <div className="flex justify-center">
         <div className="px-5 mt-20">
-          <div className="lg:flex lg:justify-center lg:flex-row lg:items-center lg:gap-28 bg-custom-bg bg-no-repeat h-full sm:min-h-screen w-full rounded-xl py-12 px-10 flex flex-col">
+          <div className="lg:flex lg:justify-center lg:flex-row lg:items-center lg:gap-28 bg-custom-bg bg-no-repeat h-auto sm:min-h-[100%] w-full rounded-xl py-12 px-10 flex flex-col">
             <div className="max-w-md lg:flex lg:flex-col lg:gap-10 sm:mx-10 flex flex-col gap-10">
               <div className="lg:text-[38px] font-base tracking-[1.2px] font-sans lg:leading-[52px] md:text-4xl text-3xl">
                 <h1>Tailwind CSS</h1>
@@ -30,8 +30,8 @@ function Hero() {
                 </div>
               </div>
             </div>
-            <div className="max-w-lg h-screen mx-auto mt-5 lg:mt-0">
-              <img src={svg1} className="w-full h-screen" alt="" />
+            <div className="max-w-lg h-auto mx-auto mt-5 lg:mt-0">
+              <img src={svg1} className="w-full" alt="" />
             </div>
           </div>
         </div>
