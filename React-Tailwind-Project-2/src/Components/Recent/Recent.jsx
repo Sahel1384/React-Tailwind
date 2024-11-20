@@ -8,7 +8,9 @@ function Recent() {
   return (
     <div className="mt-24 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">Recent Articles</h1>
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+          Recent Articles
+        </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
           There are many variations of passages of Lorem Ipsum available but the
           majority have suffered alteration in some form.

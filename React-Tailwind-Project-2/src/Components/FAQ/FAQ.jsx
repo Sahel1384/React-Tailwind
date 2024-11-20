@@ -3,7 +3,7 @@ function FAQ() {
   return (
     <div className="mt-24 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
           Frequently Asked Questions
         </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
@@ -12,7 +12,7 @@ function FAQ() {
         </h1>
       </div>
 
-      <div className="mt-20 flex gap-12 flex-wrap justify-center">
+      <div className="mt-20 dark:text-white flex gap-12 flex-wrap justify-center">
         <div className="max-w-lg border border-sky-100 flex flex-col gap-10 py-10 rounded-2xl">
           <div className="max-w-sm flex flex-col gap-5 justify-center mx-10">
             <h1 className="font-semibold text-2xl">

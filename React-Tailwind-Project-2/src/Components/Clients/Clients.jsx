@@ -6,16 +6,18 @@ import image5 from "../../assets/images/image-5.png";
 import image6 from "../../assets/images/image-6.png";
 function Clients() {
   return (
-    <div className="mt-24 flex flex-col items-center justify-center py-20 bg-[#e4f2fe]">
+    <div className="mt-24 flex flex-col items-center justify-center py-20 dark:bg-gray-600 bg-[#e4f2fe]">
       <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">What Clients Say?</h1>
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+          What Clients Say?
+        </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
           There are many variations of passages of Lorem Ipsum available but the
           majority have suffered alteration in some form.
         </h1>
       </div>
       <div className="mt-20 flex gap-5 flex-wrap justify-center">
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"
@@ -123,7 +125,7 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"
@@ -231,7 +233,7 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"
@@ -339,7 +341,7 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"
@@ -447,7 +449,7 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"
@@ -555,7 +557,7 @@ function Clients() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
+        <div className="flex flex-col overflow-hidden justify-center h-auto gap-5 w-[350px] dark:bg-black dark:text-white bg-white py-10 px-10 rounded-tr-2xl rounded-br-2xl rounded-bl-2xl hover:bg-[#8b5cf6] duration-300 hover:text-white">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-10 left-24"

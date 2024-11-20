@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { FaAlignJustify, FaMoon } from "react-icons/fa";
+import { FaAlignJustify } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import Theme from "../Theme/Theme";
 // import one from "../../assets/images/night-mode.png";
 
 function Navbar() {
@@ -123,7 +124,8 @@ function Navbar() {
           Download
         </button>
         {/* <img src={one} className="text-black w-8 h-7 hidden sm:block" alt="" /> */}
-        <FaMoon className="text-2xl hidden sm:block" />
+        {/* <FaMoon className="text-2xl hidden sm:block" /> */}
+        <Theme />
         <div className="block lg:hidden text-xl cursor-pointer">
           <button onClick={changeState}>
             <FaAlignJustify />

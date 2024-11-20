@@ -9,43 +9,45 @@ function Works() {
     <>
       <div className="mt-20 flex flex-col items-center justify-center">
         <div className="flex flex-col items-center  max-w-lg gap-3">
-          <h1 className="font-bold text-2xl sm:text-4xl">How it Works?</h1>
+          <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+            How it Works?
+          </h1>
           <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
             There are many variations of passages of Lorem Ipsum available but
             the majority have suffered alteration in some form.
           </h1>
         </div>
         <div className="mt-10 flex gap-5 flex-wrap justify-center">
-          <div className="flex flex-col justify-center group items-center h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
+          <div className="flex flex-col justify-center group items-center dark:border dark:border-orange-500 dark:bg-black h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
             <div className="flex items-center gap-1">
               <FaDownload className="text-[#8b5cf6] text-3xl md:text-5xl py-1 px-1 bg-[#ccbfea56] rounded-xl group-hover:bg-[#8b5cf6] group-hover:text-white" />
             </div>
             <div className="flex items-center text-2xl font-bold">
-              <h1>Download for Free</h1>
+              <h1 className="dark:text-white">Download for Free</h1>
             </div>
             <div className="text-gray-500 lg:max-w-[400px] text-center font-semibold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non
               ipsum.
             </div>
           </div>
-          <div className="flex flex-col justify-center group items-center h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
+          <div className="flex flex-col justify-center group items-center dark:border dark:border-orange-500 dark:bg-black h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
             <div className="flex items-center gap-1">
               <FaPersonBooth className="text-[#8b5cf6] text-3xl md:text-5xl py-1 px-1 bg-[#ccbfea56] rounded-xl group-hover:bg-[#8b5cf6] group-hover:text-white" />
             </div>
             <div className="flex items-center text-2xl font-bold">
-              <h1>Open an Account</h1>
+              <h1 className="dark:text-white">Open an Account</h1>
             </div>
             <div className="text-gray-500 lg:max-w-[400px] text-center font-semibold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non
               ipsum.
             </div>
           </div>
-          <div className="flex flex-col justify-center group items-center h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
+          <div className="flex flex-col justify-center group items-center dark:border dark:border-orange-500 dark:bg-black h-auto gap-4 w-[400px] bg-white py-8 px-12 rounded-xl">
             <div className="flex items-center gap-1">
               <FaHandHoldingUsd className="text-[#8b5cf6] text-3xl md:text-5xl py-1 px-1 bg-[#ccbfea56] rounded-xl group-hover:bg-[#8b5cf6] group-hover:text-white" />
             </div>
             <div className="flex items-center text-2xl font-bold">
-              <h1>Enjoy our App</h1>
+              <h1 className="dark:text-white">Enjoy our App</h1>
             </div>
             <div className="text-gray-500 lg:max-w-[400px] text-center font-semibold">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non

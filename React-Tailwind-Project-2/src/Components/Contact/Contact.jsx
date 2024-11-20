@@ -2,7 +2,9 @@ function Contact() {
   return (
     <div className="mt-24 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">Need Any Help?</h1>
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+          Need Any Help?
+        </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
           There are many variations of passages of Lorem Ipsum available but the
           majority have suffered alteration in some form.
@@ -10,7 +12,7 @@ function Contact() {
       </div>
 
       <div className="mt-20 border border-blue-100 w-[80%] md:w-[700px] px-10 py-20 rounded-2xl">
-        <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex flex-col md:flex-row gap-10 dark:text-white">
           <div>
             <div>
               <p className="font-semibold">First Name</p>

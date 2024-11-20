@@ -5,14 +5,16 @@ function Awards() {
   return (
     <div className="mt-20 flex flex-col items-center justify-center">
       <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">Our Recent Awards</h1>
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+          Our Recent Awards
+        </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
           There are many variations of passages of Lorem Ipsum available but the
           majority have suffered alteration in some form.
         </h1>
       </div>
       <div className="mt-20 flex gap-5 flex-wrap justify-center">
-        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
+        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white dark:bg-black dark:border dark:border-orange-500 shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
           <div className="flex items-center gap-2">
             <FaStar className="text-white bg-[#8b5cf6] py-2 px-2 text-3xl rounded-full" />{" "}
             <span className="font-bold">4.9 Rating</span>
@@ -34,7 +36,7 @@ function Awards() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
+        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white dark:bg-black dark:border dark:border-orange-500 shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
           <div className="flex items-center gap-2">
             <FaTrophy className="text-white bg-[#8b5cf6] py-2 px-2 text-3xl rounded-full" />{" "}
             <span className="font-bold">Awwwards</span>
@@ -56,7 +58,7 @@ function Awards() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
+        <div className="flex flex-col justify-center h-80 gap-7 w-[350px] bg-white dark:bg-black dark:border dark:border-orange-500 shadow-2xl shadow-[0px 0px 10px lightgray] py-8 px-12 rounded-xl">
           <div className="flex items-center gap-2">
             <svg
               width="140"

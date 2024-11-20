@@ -3,15 +3,17 @@ import { FaCheck } from "react-icons/fa";
 function Flexible() {
   return (
     <div className="mt-24 flex flex-col items-center justify-center">
-      <div className="flex flex-col items-center  max-w-lg gap-3">
-        <h1 className="font-bold text-2xl sm:text-4xl">Flexible Plans</h1>
+      <div className="flex flex-col items-center max-w-lg gap-3">
+        <h1 className="font-bold text-2xl sm:text-4xl dark:text-white">
+          Flexible Plans
+        </h1>
         <h1 className="text-center text-sm text-gray-400 sm:text-md font-semibold">
           There are many variations of passages of Lorem Ipsum available but the
           majority have suffered alteration in some form.
         </h1>
       </div>
       <div className="mt-20 flex gap-5 flex-wrap justify-center">
-        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] bg-white border-2 border-[#eae3f8] py-12 px-12 rounded-2xl">
+        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] dark:bg-black bg-white border-2 border-[#eae3f8] py-12 px-12 rounded-2xl">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-12"
@@ -134,7 +136,7 @@ function Flexible() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] bg-white border-2 border-[#8b5cf6] py-12 px-12 rounded-2xl">
+        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] dark:bg-black bg-white border-2 border-[#8b5cf6] py-12 px-12 rounded-2xl">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-12"
@@ -257,7 +259,7 @@ function Flexible() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] bg-white border-2 border-[#eae3f8] py-12 px-12 rounded-2xl">
+        <div className="flex flex-col justify-center h-auto gap-3 w-[350px] dark:bg-black bg-white border-2 border-[#eae3f8] py-12 px-12 rounded-2xl">
           <div className="relative">
             <svg
               className="mx-32 absolute -top-12"

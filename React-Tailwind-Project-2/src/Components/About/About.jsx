@@ -10,7 +10,7 @@ function About() {
         </div>
         <div className="max-w-[480px] flex flex-col gap-5">
           <p className="text-[#8b5cf6] font-semibold">About Application</p>
-          <h1 className="font-semibold text-4xl">
+          <h1 className="font-semibold text-4xl dark:text-white">
             Instant Payment Transfer SavesYou Time
           </h1>
           <h2 className="text-gray-500 text-lg">
@@ -32,7 +32,7 @@ function About() {
       <div className="mt-10 flex flex-col-reverse justify-center items-start px-20 md:px-15 gap-10 md:flex md:flex-row md:justify-center md:items-center">
         <div className="max-w-[480px] flex flex-col gap-5">
           <p className="text-[#8b5cf6] font-semibold">Easy to Manage Appwind</p>
-          <h1 className="font-semibold text-4xl">
+          <h1 className="font-semibold text-4xl dark:text-white">
             Manage your online wallet with Appwind.
           </h1>
           <h2 className="text-gray-500 text-lg">

@@ -5,7 +5,7 @@ import { Outlet } from "react-router";
 // import Contact from "./Components/Contact/Contact";
 // import FAQ from "./Components/FAQ/FAQ";
 // import Flexible from "./Components/Flexible/Flexible";
-import Footer from "./Components/Footer/Footer";  
+import Footer from "./Components/Footer/Footer";
 // import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
 import GoToTop from "./Components/GoToTop/GoToTop";
